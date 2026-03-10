@@ -22,7 +22,9 @@ wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/me
 Run:
 
 python text-voice.py --text "Hello world"
+
 python text-voice.py --pdf article.pdf --output article.wav
+
 python text-voice.py --txt notes.txt --speed 0.75 --output slow.wav
 
 
@@ -38,6 +40,7 @@ pip install openai-whisper --break-system-packages
 Run:
 
 python speech-to-text.py --audio recording.wav
+
 python speech-to-text.py --audio meeting.mp3 --output notes.txt
 
 
