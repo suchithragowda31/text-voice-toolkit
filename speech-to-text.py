@@ -12,7 +12,7 @@ THEN READ:
 
 FIRST TIME SETUP:
   pip install openai-whisper --break-system-packages
-  sudo apt install ffmpeg   (already installed)
+  sudo apt install ffmpeg   
 """
 
 import argparse, sys, os
